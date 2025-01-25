@@ -1,7 +1,9 @@
-import React from 'react'
-
+import SignInForm from "~/components/auth/Signin-Form"
 export default function SignIn() {
   return (
-    <div>Sign In Form</div>
+    <div className="h-screen flex justify-center items-center">
+      <SignInForm />
+    </div>
+
   )
 }
